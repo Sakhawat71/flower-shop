@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 250px;
+    margin-bottom:150px;
 }
 
 header {
@@ -51,6 +51,7 @@ header {
 .featured {
     max-width: 1008px;
     margin: auto;
+    margin-bottom: 120px;
 }
 
 .featured-top {
@@ -81,7 +82,8 @@ header {
     margin-right: auto;
     display: block;
 }
-.featured-flower h3{
+
+.featured-flower h3 {
     text-align: center;
 }
 
@@ -90,25 +92,56 @@ header {
 #f1 {
     background: rgba(167, 33, 98, 0.15);
 }
-#f1 img{
+
+#f1 img {
     width: 200px;
     height: 300px;
     margin-top: 80px;
 }
-#f2{
+
+#f2 {
     background: rgba(5, 151, 160, 0.15);
 }
-#f2 img{
+
+#f2 img {
     height: 260px;
     width: 260px;
     margin-top: 80px;
     margin-bottom: 60px;
 }
-#f3{
+
+#f3 {
     background: rgba(71, 125, 17, 0.15);
 }
+
 #f3 img {
-    height:325px;
+    height: 325px;
     width: 200px;
     margin-top: 55px;
 }
+
+
+/* ============================= support-section =================== */
+
+.support-section {
+
+    margin: auto;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1008px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.support{
+    
+    text-align: center;
+    padding: 50px 0;
+
+}
+.icon{
+    width: 61px;
+}
+
+/* ============================ Hot Deal ====================== */
