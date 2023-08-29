@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom:150px;
+    margin:0 0;
 }
 
 header {
@@ -179,4 +179,49 @@ header {
 .instagram-img img{
     width: 240px;
     height: 100%;
+}
+
+/* =========================  subscribe  ========================== */
+
+.subscribe{
+    background-image: url(flower-asset/rectangle\ 9.png);
+    background-size: 1012px;
+    max-width: 1012px;
+    margin: 90px auto;
+    padding: 70px 0;
+}
+.subscribe-offer , .subscribe form{
+    text-align: center;
+}
+
+.subscribe-input > input{
+    width: 490px;
+    height: 30px;
+    padding: 7px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+.subscribe-offer > h2{
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+
+/* ============================= footer =========================== */
+
+footer{
+    text-align: center;
+    background-color:  #111010;
+    color: white;
+    padding: 90px 0;
+}
+.footer-span{
+    color: #E55473;
+}
+.small{
+    color: #FFFFFF66;
+}
+.footer-div{
+    margin: 0 300px;
 }
