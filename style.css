@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin:0 0;
 }
-
+/* ===================== header ========================= */
 header {
     background-color: rgba(229, 84, 115, 0.10);
     padding: 50px 168px 0 168px;
@@ -15,6 +15,7 @@ header {
     align-items: center;
     gap: 70px;
     height: auto;
+    justify-content: space-around;
 }
 
 .header-img>img {
@@ -184,7 +185,7 @@ header {
 /* =========================  subscribe  ========================== */
 
 .subscribe{
-    background-image: url(flower-asset/rectangle\ 9.png);
+    background-image: url(flower-asset/ban.png);
     background-size: 1012px;
     max-width: 1012px;
     margin: 90px auto;
