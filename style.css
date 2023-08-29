@@ -145,3 +145,19 @@ header {
 }
 
 /* ============================ Hot Deal ====================== */
+
+.hot-deal{
+    margin-top: 90px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    padding: 50px 250px;
+    gap: 100px;
+    
+}
+.hot-deal-offer{
+    width: 55%;
+    align-items: center;
+    text-align: center;
+}
