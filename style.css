@@ -199,6 +199,7 @@ header {
 .best-selling-flowers{
     display: flex;
     margin: auto;
+    max-width: 1012px;
     gap: 10px;
     justify-content: space-around;
     padding: 30px 170px;
