@@ -1,12 +1,13 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 250px;
 }
 
 header {
     background-color: rgba(229, 84, 115, 0.10);
     padding: 50px 168px 0 168px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .banner-container {
@@ -47,13 +48,67 @@ header {
 
 /* ============================= featured ============================ */
 
-.featured{
+.featured {
     max-width: 1008px;
     margin: auto;
-    /* align-items: center; */
 }
-.featured-top{
 
+.featured-top {
+    margin: 0 100px;
+    padding: 10px 25px;
     text-align: center;
-    border: 1px solid;
+}
+
+.featured-top-titel {
+    font-weight: 800;
+}
+
+.featured-flower-exhibition {
+    display: flex;
+    gap: 16px;
+}
+
+.featured-flower {
+    width: 325px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    align-content: center;
+}
+
+.featured-flower img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.featured-flower h3{
+    text-align: center;
+}
+
+
+
+#f1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+#f1 img{
+    width: 200px;
+    height: 300px;
+    margin-top: 80px;
+}
+#f2{
+    background: rgba(5, 151, 160, 0.15);
+}
+#f2 img{
+    height: 260px;
+    width: 260px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+#f3{
+    background: rgba(71, 125, 17, 0.15);
+}
+#f3 img {
+    height:325px;
+    width: 200px;
+    margin-top: 55px;
 }
