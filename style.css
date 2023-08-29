@@ -183,6 +183,27 @@ header {
     height: 100%;
 }
 
+/* ========================= best-selling ======================== */
+
+.best-selling{
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 25px 0;
+}
+.best >img{
+    width: 180px;
+    height: 250px;
+}
+.best-selling-flowers{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 30px 170px;
+    
+}
 /* =========================  subscribe  ========================== */
 
 .subscribe{
@@ -225,5 +246,5 @@ footer{
     color: #FFFFFF66;
 }
 .footer-div{
-    margin: 0 300px;
+    margin: 0 400px;
 }
