@@ -1,0 +1,59 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 50px 168px 0 168px;
+    margin-bottom: 50px;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    height: auto;
+}
+
+.header-img>img {
+    width: 457px;
+    height: 560px;
+}
+
+.banner-titel {
+    color: #272727;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+/* ======================== button ========================== */
+
+.btn-primary {
+    border-radius: 8px;
+    background-color: #E55473;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    margin: 10px 0;
+    font-size: 15px;
+
+}
+
+
+/* ============================= featured ============================ */
+
+.featured{
+    max-width: 1008px;
+    margin: auto;
+    /* align-items: center; */
+}
+.featured-top{
+
+    text-align: center;
+    border: 1px solid;
+}
