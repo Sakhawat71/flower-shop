@@ -55,7 +55,7 @@ header {
 }
 
 .featured-top {
-    margin: 0 100px;
+    margin: 50px 200px;
     padding: 10px 25px;
     text-align: center;
 }
@@ -160,4 +160,23 @@ header {
     width: 55%;
     align-items: center;
     text-align: center;
+}
+
+/* =========================== instagram ====================== */
+
+.instagram{
+    margin: 50px 300px;
+
+}
+.instagram-img-container{
+    display: flex;
+    margin: auto;
+    width: 1012px;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.instagram-img img{
+    width: 240px;
+    height: 100%;
 }
