@@ -87,6 +87,8 @@ header {
 .featured-flower h3 {
     text-align: center;
     text-decoration: underline;
+    position: relative;
+    top: 20px;
 }
 
 
